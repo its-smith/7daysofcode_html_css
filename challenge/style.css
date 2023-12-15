@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/*Não é o proxy q da problema, é o navegador internet explorer cocô
+sem proxy consigo ligar no servidor da google tranquilo*/
+@import url('styles/nav.css');
+@import url('styles/header.css');
+
+/*lição: import sempre em cima de tudo*/
+
+:root{
+    --branco: #FFFFFF;
+    --cinza: #667085;
+    --cinza_escuro: #101828;
+    --vermelho: #8E2424;
+    --fonte_inter: 'Inter', sans-serif;
+}
+
+body{
+    font-family: var(--fonte_inter);
+}
