@@ -1,0 +1,37 @@
+.container_metricas{
+    display:flex;
+    width: 90vw;
+    /*justify-content: center;
+    n ta ajudando grande coisa n*/
+    flex-wrap: nowrap;
+    margin-left: 5vw;
+}
+
+.metrica{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0;
+    width:25%;
+
+}
+
+.metrica_titulo{
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 5vh;
+}
+
+.metrica_subtitulo{
+    color: var(--cinza_escuro);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 3vh;
+}
+
+.texto_metrica{
+    color: var(--cinza);
+    font-size: 16px;
+    font-weight: 400;
+}
