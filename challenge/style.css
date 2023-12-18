@@ -5,14 +5,17 @@ sem proxy consigo ligar no servidor da google tranquilo*/
 @import url('styles/nav.css');
 @import url('styles/header.css');
 @import url('styles/metricas.css');
+@import url('styles/vagas.css');
 
 /*lição: import sempre em cima de tudo*/
 
 :root{
     --branco: #FFFFFF;
+    --cinza_claro: #EAECF0;
     --cinza: #667085;
     --cinza_escuro: #101828;
     --vermelho: #8E2424;
+    --vermelho_claro: #8E24240D;
     --fonte_inter: 'Inter', sans-serif;
 }
 
