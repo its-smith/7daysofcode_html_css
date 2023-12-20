@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    padding-top:7vh;
+    padding-bottom: 15vh;
+    height: 27.5vh;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobre{
+    color: var(--vermelho);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--cinza_escuro);
+}
+
+.texto_principal{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    width: 60%;
+    text-align: center;
+}

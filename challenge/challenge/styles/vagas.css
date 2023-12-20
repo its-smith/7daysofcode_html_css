@@ -1,0 +1,69 @@
+.vagas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.vagas_vermelhinho{
+    color: var(--vermelho);
+    background-color: var(--vermelho_claro);
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.vagas_titulo{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cinza_escuro);
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+.imagem_vagas{
+    margin-top: 9vh;
+    width:85%;
+}
+
+.vagas_listagem{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top: 5vh;
+    margin-left: 20vw;
+}
+
+.descricao_vaga{
+    border: solid 1px;
+    border-color: var(--cinza_claro);
+    border-radius: 16px;
+    padding: 24px 24px 28px 24px;
+    width: 70%;
+    margin-bottom: 3vh;
+}
+
+.categoria_vaga{
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--cinza_escuro);
+    margin-bottom:5vh;
+    margin-top: 7vh;
+}
+
+.nome_vaga{
+    color: var(--cinza_escuro);
+    font-weight: 500;
+    font-size: 18px;
+    /*margin n ta funfando, se pa alguma coisa com o pai*/
+}
+
+.vaga_detalhe{
+    color: var(--cinza);
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 5vh;
+}
